@@ -55,7 +55,7 @@
   "peerDependencies": {
     "n8n-workflow": "*"
   },
-  "ependencies": {
+  "dependencies": {
     "n8n-workflow": "*"
   }
 }
