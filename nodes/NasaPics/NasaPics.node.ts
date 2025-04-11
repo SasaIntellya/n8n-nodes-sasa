@@ -1,4 +1,4 @@
-import { INodeType, INodeTypeDescription, ConnectionTypes } from 'n8n-workflow';
+import { INodeType, INodeTypeDescription } from 'n8n-workflow';
 
 export class NasaPics implements INodeType {
     description: INodeTypeDescription = {
@@ -12,8 +12,8 @@ export class NasaPics implements INodeType {
         defaults: {
             name: 'NASA Pics',
         },
-        inputs: ['main' as ConnectionTypes],
-        outputs: ['main' as ConnectionTypes],
+        inputs: ['main'],
+        outputs: ['main'],
         credentials: [
             {
                 name: 'NasaPicsApi',
