@@ -4,7 +4,7 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class NasaPicsApi implements ICredentialType {
+export class SasaApi implements ICredentialType {
 	name = 'SasaApi';
 	displayName = 'Sasa API';
 	// Uses the link to this tutorial as an example
